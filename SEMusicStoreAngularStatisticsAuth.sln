@@ -1,0 +1,87 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{71A8DEFB-ADD9-46FD-8456-48D99B2DD492}") = "SEMusicStoreAngularStatisticsAuth.Logic", "SEMusicStoreAngularStatisticsAuth.Logic\SEMusicStoreAngularStatisticsAuth.Logic.csproj", "{B9071805-DAFE-442C-9F34-E4DD315E1D8F}"
+EndProject
+Project("{9DEEC661-8D97-4227-9C67-92EC4F8EB696}") = "SEMusicStoreAngularStatisticsAuth.ConApp", "SEMusicStoreAngularStatisticsAuth.ConApp\SEMusicStoreAngularStatisticsAuth.ConApp.csproj", "{9CD3496A-889C-4991-9274-8AEF097556E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}")="SolutionItems","SolutionItems","{A288F100-2A15-4E8F-B686-8ACD1EB87D9D}"
+	ProjectSection(SolutionItems)=preProject
+		CodeGeneration.csv=CodeGeneration.csv
+		README.md=README.md
+		sampleItemEdit.html=sampleItemEdit.html
+		sampleItemEdit.ts=sampleItemEdit.ts
+		sampleItemEntityList.html=sampleItemEntityList.html
+		sampleItemEntityList.ts=sampleItemEntityList.ts
+		sampleItemViewList.html=sampleItemViewList.html
+		sampleItemViewList.ts=sampleItemViewList.ts
+views.sql=views.sql
+	EndProjectSection
+EndProject
+Project("{B1A5B854-E5C0-44AD-9028-6D41D6BB0319}") = "SEMusicStoreAngularStatisticsAuth.WebApi", "SEMusicStoreAngularStatisticsAuth.WebApi\SEMusicStoreAngularStatisticsAuth.WebApi.csproj", "{BF70F327-1664-4BD7-AF5B-DAB306FFC3A6}"
+EndProject
+Project("{C84A2395-E285-42D9-8F25-1708E664DB47}") = "SEMusicStoreAngularStatisticsAuth.Common", "SEMusicStoreAngularStatisticsAuth.Common\SEMusicStoreAngularStatisticsAuth.Common.csproj", "{D622D224-3200-4BFE-9757-9126B15EA861}"
+EndProject
+Project("{019D4904-4C71-4531-BF86-B55FBA8610B5}") = "TemplateTools.ConApp", "TemplateTools.ConApp\TemplateTools.ConApp.csproj", "{49C667A7-CBFD-4B5F-9EB4-942CF5EB0E05}"
+EndProject
+Project("{67C27CE4-C112-433D-B441-96F2CB823096}") = "TemplateTools.Logic", "TemplateTools.Logic\TemplateTools.Logic.csproj", "{D665E4F6-446C-45C5-A4E5-B0E7CDBEE7DB}"
+EndProject
+Project("{3630366B-4566-4768-9B44-CB83F89F0436}") = "SEMusicStoreAngularStatisticsAuth.CodeGenApp", "SEMusicStoreAngularStatisticsAuth.CodeGenApp\SEMusicStoreAngularStatisticsAuth.CodeGenApp.csproj", "{0D967C58-C9F9-4EBB-A958-F01E42C32A54}"
+EndProject
+Project("{9EA96903-B796-4DB0-9066-5855CBBEB9C9}") = "SEMusicStoreAngularStatisticsAuth.MVVMApp", "SEMusicStoreAngularStatisticsAuth.MVVMApp\SEMusicStoreAngularStatisticsAuth.MVVMApp.csproj", "{787A7471-C70C-4EFB-976F-4FEFAA98E597}"
+EndProject
+Project("{6848EBD3-5B57-4C7C-8DC3-C5197E47E66E}") = "SEMusicStoreAngularStatisticsAuth.AngularApp", "SEMusicStoreAngularStatisticsAuth.AngularApp\SEMusicStoreAngularStatisticsAuth.AngularApp.esproj", "{809F8060-D733-E671-6EBC-62B3811C798E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9071805-DAFE-442C-9F34-E4DD315E1D8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9071805-DAFE-442C-9F34-E4DD315E1D8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9071805-DAFE-442C-9F34-E4DD315E1D8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9071805-DAFE-442C-9F34-E4DD315E1D8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CD3496A-889C-4991-9274-8AEF097556E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CD3496A-889C-4991-9274-8AEF097556E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CD3496A-889C-4991-9274-8AEF097556E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CD3496A-889C-4991-9274-8AEF097556E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF70F327-1664-4BD7-AF5B-DAB306FFC3A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF70F327-1664-4BD7-AF5B-DAB306FFC3A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF70F327-1664-4BD7-AF5B-DAB306FFC3A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF70F327-1664-4BD7-AF5B-DAB306FFC3A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D622D224-3200-4BFE-9757-9126B15EA861}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D622D224-3200-4BFE-9757-9126B15EA861}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D622D224-3200-4BFE-9757-9126B15EA861}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D622D224-3200-4BFE-9757-9126B15EA861}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49C667A7-CBFD-4B5F-9EB4-942CF5EB0E05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49C667A7-CBFD-4B5F-9EB4-942CF5EB0E05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49C667A7-CBFD-4B5F-9EB4-942CF5EB0E05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49C667A7-CBFD-4B5F-9EB4-942CF5EB0E05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D665E4F6-446C-45C5-A4E5-B0E7CDBEE7DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D665E4F6-446C-45C5-A4E5-B0E7CDBEE7DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D665E4F6-446C-45C5-A4E5-B0E7CDBEE7DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D665E4F6-446C-45C5-A4E5-B0E7CDBEE7DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D967C58-C9F9-4EBB-A958-F01E42C32A54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D967C58-C9F9-4EBB-A958-F01E42C32A54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D967C58-C9F9-4EBB-A958-F01E42C32A54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D967C58-C9F9-4EBB-A958-F01E42C32A54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{787A7471-C70C-4EFB-976F-4FEFAA98E597}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{787A7471-C70C-4EFB-976F-4FEFAA98E597}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{787A7471-C70C-4EFB-976F-4FEFAA98E597}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{787A7471-C70C-4EFB-976F-4FEFAA98E597}.Release|Any CPU.Build.0 = Release|Any CPU
+		{809F8060-D733-E671-6EBC-62B3811C798E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{809F8060-D733-E671-6EBC-62B3811C798E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{809F8060-D733-E671-6EBC-62B3811C798E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{809F8060-D733-E671-6EBC-62B3811C798E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{809F8060-D733-E671-6EBC-62B3811C798E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{809F8060-D733-E671-6EBC-62B3811C798E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FBE26416-294F-4F3C-87B6-62FEA8DE4C3B}
+	EndGlobalSection
+EndGlobal
