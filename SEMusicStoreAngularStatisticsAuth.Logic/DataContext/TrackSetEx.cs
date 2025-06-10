@@ -8,8 +8,7 @@ namespace SEMusicStoreAngularStatisticsAuth.Logic.DataContext
     {
         protected override void CheckAccessing(MethodBase methodBase)
         {
-            if (methodBase.Name.Equals(nameof(AsQuerySet)) == false
-                && methodBase.Name.Equals(nameof(AsNoTrackingSet)) == false)
+            if (methodBase.Name.Equals(nameof(AsNoTrackingSet)) == false)
             {
                 base.CheckAccessing(methodBase);
             }

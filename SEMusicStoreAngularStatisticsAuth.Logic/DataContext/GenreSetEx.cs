@@ -15,13 +15,6 @@ namespace SEMusicStoreAngularStatisticsAuth.Logic.DataContext
 
             return ExecuteGetByIdAsync(id);
         }
-        [Authorize("SysAdmin", "AppAdmin", "AppManager", "AppUser")]
-        public override IQueryable<Genre> AsQuerySet()
-        {
-            CheckAccessing(MethodBase.GetCurrentMethod()!);
-
-            return ExecuteAsQuerySet();
-        }
 
         [Authorize("SysAdmin", "AppAdmin", "AppManager", "AppUser")]
         public override IQueryable<Genre> AsNoTrackingSet()

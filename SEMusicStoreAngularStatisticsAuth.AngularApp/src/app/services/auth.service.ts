@@ -120,8 +120,9 @@ export class AuthService {
     this.isAuthenticated.next(!!this._user);
   }
 
-  private loadUserFromStorage() {
+  private async loadUserFromStorage() {
     this._user = this.storageService.getData(StorageLiterals.USER) as IAuthenticatedUser;
+    await this.isSessionAlive();
     this.notifyForUserChanged();
   }
 
